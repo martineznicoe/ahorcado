@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego Ahorcado</title>
+
+    <link rel="stylesheet" href="ahorcado.css">
+    <script src="ahorcado.js"></script>
+</head>
+<body onload="nuevaPartida()">
+
+    <header>
+        <h1>Juego del Ahorcado</h1>
+    </header>
+
+<nav>
+    <button class="abc_botones" onClick="location.reload()">NUEVA PARTIDA</button>
+    <h4 id="pistaPalabra"></h4>
+</nav>
+   
+    <div class="padre">
+        <div class="columna">         
+            <img id="imagen" src="" width= 90%; height= 90%s>
+        </div>
+        
+        <div class="columna">
+            <br>
+            <h2 id="palabra"></h2>
+        </div>
+
+    </div>
+
+
+    <div id="botonera" class="div_abc">
+        <button id="Q" class="abc_botones" onclick="verificar(id)">Q</button>
+        <button id="W" class="abc_botones" onclick="verificar(id)">W</button>
+        <button id="E" class="abc_botones" onclick="verificar(id)">E</button>
+        <button id="R" class="abc_botones" onclick="verificar(id)">R</button>
+        <button id="T" class="abc_botones" onclick="verificar(id)">T</button>
+        <button id="Y" class="abc_botones" onclick="verificar(id)">Y</button>
+        <button id="U" class="abc_botones" onclick="verificar(id)">U</button>
+        <button id="I" class="abc_botones" onclick="verificar(id)">I</button>
+        <button id="O" class="abc_botones" onclick="verificar(id)">O</button>
+        <button id="P" class="abc_botones" onclick="verificar(id)">P</button>
+    </div>
+    <div id="botonera" class="div_abc">
+        <button id="A" class="abc_botones" onclick="verificar(id)">A</button>
+        <button id="S" class="abc_botones" onclick="verificar(id)">S</button>
+        <button id="D" class="abc_botones" onclick="verificar(id)">D</button>
+        <button id="F" class="abc_botones" onclick="verificar(id)">F</button>
+        <button id="G" class="abc_botones" onclick="verificar(id)">G</button>
+        <button id="H" class="abc_botones" onclick="verificar(id)">H</button>
+        <button id="J" class="abc_botones" onclick="verificar(id)">J</button>
+        <button id="K" class="abc_botones" onclick="verificar(id)">K</button>
+        <button id="L" class="abc_botones" onclick="verificar(id)">L</button>
+        <button id="Ñ" class="abc_botones" onclick="verificar(id)">Ñ</button>
+    </div>
+    <div id="botonera" class="div_abc">
+        <button id="Z" class="abc_botones" onclick="verificar(id)">Z</button>
+        <button id="X" class="abc_botones" onclick="verificar(id)">X</button>
+        <button id="C" class="abc_botones" onclick="verificar(id)">C</button>
+        <button id="V" class="abc_botones" onclick="verificar(id)">V</button>
+        <button id="B" class="abc_botones" onclick="verificar(id)">B</button>
+        <button id="N" class="abc_botones" onclick="verificar(id)">N</button>
+        <button id="M" class="abc_botones" onclick="verificar(id)">M</button>
+    </div>
+
+</body>
+</html>
